@@ -26,4 +26,7 @@ jobs:
       - run: npm ci
       - run: npm run typecheck
       - run: npm test
+        env:
+          DATABASE_URL: postgresql://postgres:postgres@localhost:5432/souk_test
+          JWT_SECRET: test-secret-test-secret-test-secret-123
       - run: npm run build

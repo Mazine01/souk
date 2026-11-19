@@ -1,9 +1,10 @@
 import { defineConfig } from 'vitest/config';
-import { readFileSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 
 // Load .env.test into the test process (DATABASE_URL points at a separate test database).
-const testEnv = Object.fromEntries(
-  readFileSync('.env.test', 'utf8')
+// In CI there is no file: the workflow sets DATABASE_URL and JWT_SECRET itself.
+const testEnv: Record<string, string> = Object.fromEntries(
+  (existsSync('.env.test') ? readFileSync('.env.test', 'utf8') : 'NODE_ENV=test')
     .split('\n')
     .filter((l) => l.trim() && !l.startsWith('#'))
     .map((l) => {
