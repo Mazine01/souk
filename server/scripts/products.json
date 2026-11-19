@@ -1,0 +1,633 @@
+[
+ {
+  "slug": "safi-cobalt-bowl",
+  "name": "Safi cobalt serving bowl",
+  "category": "ceramics",
+  "price": 260,
+  "stock": 14,
+  "origin": "Safi",
+  "description": "Wheel-thrown in Safi and hand-painted in cobalt and white. Deep enough for salads, couscous or a pile of clementines. Food safe; hand wash to keep the glaze bright.",
+  "views": [
+   [
+    "bowl",
+    "BLUE",
+    "SAFF",
+    "CREAM",
+    "CREAM"
+   ],
+   [
+    "bowl",
+    "BLUE",
+    "SAFF",
+    "CREAM",
+    "#E3E6F7"
+   ]
+  ],
+  "featured": true
+ },
+ {
+  "slug": "fes-zellige-plate",
+  "name": "Fès zellige plate, 30 cm",
+  "category": "ceramics",
+  "price": 340,
+  "stock": 9,
+  "origin": "Fès",
+  "description": "A wall or table plate painted with the eight-pointed star of Fès zellige tilework. Each one is painted freehand, so the lines vary slightly from plate to plate.",
+  "views": [
+   [
+    "plate",
+    "COBALT",
+    "SAFF",
+    "CREAM",
+    "#E7E3D8"
+   ],
+   [
+    "plate",
+    "COBALT",
+    "SAFF",
+    "CREAM",
+    "#DDE2F3"
+   ]
+  ],
+  "featured": true
+ },
+ {
+  "slug": "tamegroute-green-bowl",
+  "name": "Tamegroute green bowl",
+  "category": "ceramics",
+  "price": 180,
+  "stock": 6,
+  "origin": "Tamegroute",
+  "description": "The deep, uneven green glaze of Tamegroute, made in the Draa valley in wood-fired kilns. No two bowls come out the same colour.",
+  "views": [
+   [
+    "bowl",
+    "MINT",
+    "#7FB394",
+    "#1E4A36",
+    "#E9EEE4"
+   ]
+  ],
+  "featured": false
+ },
+ {
+  "slug": "terracotta-tagine-28",
+  "name": "Terracotta cooking tagine, 28 cm",
+  "category": "ceramics",
+  "price": 220,
+  "stock": 21,
+  "origin": "Safi",
+  "description": "Unglazed cooking tagine for gas or charcoal, sized for four. Soak it before the first use and it will last for years of slow-cooked stews.",
+  "views": [
+   [
+    "tagine",
+    "TERRA",
+    "#E5B48F",
+    "#8E3E22",
+    "#F2E6DA"
+   ]
+  ],
+  "featured": true
+ },
+ {
+  "slug": "painted-serving-tagine",
+  "name": "Painted serving tagine",
+  "category": "ceramics",
+  "price": 310,
+  "stock": 4,
+  "origin": "Safi",
+  "description": "A serving tagine painted in blue and saffron for bringing food to the table. Not for the stove: keep it for serving and display.",
+  "views": [
+   [
+    "tagine",
+    "BLUE",
+    "SAFF",
+    "COBALT",
+    "#EDEAF7"
+   ]
+  ],
+  "featured": false
+ },
+ {
+  "slug": "saffron-serving-plate",
+  "name": "Saffron serving plate",
+  "category": "ceramics",
+  "price": 240,
+  "stock": 11,
+  "origin": "Fès",
+  "description": "A wide, shallow plate in saffron and ink. Big enough for a full plate of msemen.",
+  "views": [
+   [
+    "plate",
+    "SAFF",
+    "INK",
+    "#FBF3E2",
+    "#F6ECD5"
+   ]
+  ],
+  "featured": false
+ },
+ {
+  "slug": "olive-dish-set",
+  "name": "Olive dishes, set of 4",
+  "category": "ceramics",
+  "price": 150,
+  "stock": 18,
+  "origin": "Safi",
+  "description": "Four little dishes in mixed glazes for olives, harissa and preserved lemons.",
+  "views": [
+   [
+    "bowl",
+    "TERRA",
+    "SAFF",
+    "#F3D7B6",
+    "#F4EADF"
+   ]
+  ],
+  "featured": false
+ },
+ {
+  "slug": "pomegranate-plate",
+  "name": "Pomegranate wall plate",
+  "category": "ceramics",
+  "price": 290,
+  "stock": 2,
+  "origin": "Safi",
+  "description": "Painted with ripe pomegranates in red and green. A hook on the back for hanging.",
+  "views": [
+   [
+    "plate",
+    "RED",
+    "MINT",
+    "#F7E9E2",
+    "#F5E4DE"
+   ]
+  ],
+  "featured": false
+ },
+ {
+  "slug": "beni-ourain-rug",
+  "name": "Beni Ourain rug, 150 × 240 cm",
+  "category": "rugs",
+  "price": 4800,
+  "stock": 2,
+  "origin": "Middle Atlas",
+  "description": "Hand-knotted from undyed sheep's wool by Beni Ourain weavers in the Middle Atlas. Thick, soft pile with the tribe's dark diamond lattice.",
+  "views": [
+   [
+    "rug",
+    "INK",
+    "#6B655C",
+    "CREAM",
+    "#E8E1D5"
+   ],
+   [
+    "rug",
+    "INK",
+    "#6B655C",
+    "CREAM",
+    "#D9D3C8"
+   ]
+  ],
+  "featured": true
+ },
+ {
+  "slug": "boucherouite-rug",
+  "name": "Boucherouite rag rug, 120 × 180 cm",
+  "category": "rugs",
+  "price": 1650,
+  "stock": 3,
+  "origin": "Marrakech",
+  "description": "Woven from strips of recycled fabric, so each one is a one-off burst of colour. Light enough to move from room to room.",
+  "views": [
+   [
+    "rug",
+    "RED",
+    "SAFF",
+    "BLUE",
+    "#F3E6E4"
+   ]
+  ],
+  "featured": false
+ },
+ {
+  "slug": "kilim-runner",
+  "name": "Kilim hallway runner, 70 × 300 cm",
+  "category": "rugs",
+  "price": 1900,
+  "stock": 5,
+  "origin": "Taznakht",
+  "description": "A flat-woven runner in madder red and indigo. Reversible, and tough enough for a busy hallway.",
+  "views": [
+   [
+    "rug",
+    "BLUE",
+    "SAFF",
+    "RED",
+    "#F1E3E3"
+   ]
+  ],
+  "featured": false
+ },
+ {
+  "slug": "azilal-rug",
+  "name": "Azilal rug, 100 × 160 cm",
+  "category": "rugs",
+  "price": 2300,
+  "stock": 0,
+  "origin": "Azilal",
+  "description": "Bright symbols on a cream field, knotted by women weavers in the Azilal region. This one has sold, but we expect more after the next market.",
+  "views": [
+   [
+    "rug",
+    "BLUE",
+    "RED",
+    "CREAM",
+    "#F0EEE6"
+   ]
+  ],
+  "featured": false
+ },
+ {
+  "slug": "sabra-cushion-blue",
+  "name": "Sabra cactus-silk cushion, indigo",
+  "category": "rugs",
+  "price": 360,
+  "stock": 16,
+  "origin": "Fès",
+  "description": "Woven from sabra, the silky fibre of the agave plant, which shimmers as you move. Cover only, 45 × 45 cm, with a zip.",
+  "views": [
+   [
+    "cushion",
+    "COBALT",
+    "SAFF",
+    "CREAM",
+    "#E5E7F4"
+   ]
+  ],
+  "featured": true
+ },
+ {
+  "slug": "sabra-cushion-saffron",
+  "name": "Sabra cactus-silk cushion, saffron",
+  "category": "rugs",
+  "price": 360,
+  "stock": 8,
+  "origin": "Fès",
+  "description": "The same sabra weave in warm saffron. Cover only, 45 × 45 cm.",
+  "views": [
+   [
+    "cushion",
+    "SAFF",
+    "INK",
+    "CREAM",
+    "#F6EEDC"
+   ]
+  ],
+  "featured": false
+ },
+ {
+  "slug": "brass-star-lantern",
+  "name": "Pierced brass star lantern",
+  "category": "lighting",
+  "price": 780,
+  "stock": 7,
+  "origin": "Marrakech",
+  "description": "Hand-pierced brass that throws star patterns across the walls when lit. Fitted for a standard E27 bulb, with a 1 m chain.",
+  "views": [
+   [
+    "lantern",
+    "BRASS",
+    "INK",
+    "#FFD98A",
+    "#2A2735"
+   ],
+   [
+    "lantern",
+    "BRASS",
+    "INK",
+    "#FFD98A",
+    "#F3EBDB"
+   ]
+  ],
+  "featured": true
+ },
+ {
+  "slug": "copper-lantern",
+  "name": "Hammered copper lantern",
+  "category": "lighting",
+  "price": 690,
+  "stock": 5,
+  "origin": "Fès",
+  "description": "Hammered copper that warms to a rich patina over time. Works with a candle or an E14 bulb.",
+  "views": [
+   [
+    "lantern",
+    "TERRA",
+    "INK",
+    "#FFC27A",
+    "#2D2420"
+   ]
+  ],
+  "featured": false
+ },
+ {
+  "slug": "glass-lantern",
+  "name": "Coloured glass lantern",
+  "category": "lighting",
+  "price": 540,
+  "stock": 12,
+  "origin": "Marrakech",
+  "description": "Panels of coloured glass set in a metal frame. Beautiful with a single candle on a terrace.",
+  "views": [
+   [
+    "lantern",
+    "MINT",
+    "SAFF",
+    "#9FE3C1",
+    "#1F2B27"
+   ]
+  ],
+  "featured": false
+ },
+ {
+  "slug": "globe-pendant",
+  "name": "Pierced globe pendant lamp",
+  "category": "lighting",
+  "price": 920,
+  "stock": 3,
+  "origin": "Marrakech",
+  "description": "A round pierced pendant that fills a room with a lace of light. Ceiling plate and 1.2 m cable included.",
+  "views": [
+   [
+    "lantern",
+    "INK",
+    "BRASS",
+    "#FFE4A8",
+    "#2A2832"
+   ]
+  ],
+  "featured": false
+ },
+ {
+  "slug": "silver-berrad-teapot",
+  "name": "Berrad teapot, silver finish",
+  "category": "tea",
+  "price": 420,
+  "stock": 15,
+  "origin": "Fès",
+  "description": "The classic Moroccan teapot, with the tall curved spout made for pouring from height. Holds 6 glasses.",
+  "views": [
+   [
+    "teapot",
+    "#A9ADB8",
+    "INK",
+    "#000",
+    "#ECEDF1"
+   ],
+   [
+    "teapot",
+    "#A9ADB8",
+    "INK",
+    "#000",
+    "#DFE5EC"
+   ]
+  ],
+  "featured": true
+ },
+ {
+  "slug": "brass-teapot",
+  "name": "Engraved brass teapot",
+  "category": "tea",
+  "price": 560,
+  "stock": 6,
+  "origin": "Fès",
+  "description": "Brass engraved by hand with a star medallion. Holds 4 glasses.",
+  "views": [
+   [
+    "teapot",
+    "BRASS",
+    "INK",
+    "#000",
+    "#F3E9D2"
+   ]
+  ],
+  "featured": false
+ },
+ {
+  "slug": "beldi-tea-glasses-green",
+  "name": "Beldi tea glasses, green, set of 6",
+  "category": "tea",
+  "price": 180,
+  "stock": 30,
+  "origin": "Marrakech",
+  "description": "Mouth-blown recycled glass with tiny bubbles and a soft green tint. Each set varies a little.",
+  "views": [
+   [
+    "glasses",
+    "#9CC9A8",
+    "MINT",
+    "#000",
+    "#E9F1EA"
+   ]
+  ],
+  "featured": false
+ },
+ {
+  "slug": "gold-rim-tea-glasses",
+  "name": "Gold-rim tea glasses, set of 6",
+  "category": "tea",
+  "price": 240,
+  "stock": 24,
+  "origin": "Casablanca",
+  "description": "Clear glasses with gold rims and painted stars, for special occasions.",
+  "views": [
+   [
+    "glasses",
+    "#E9D7B3",
+    "BRASS",
+    "#000",
+    "#F7F0E2"
+   ]
+  ],
+  "featured": false
+ },
+ {
+  "slug": "engraved-tea-tray",
+  "name": "Engraved tea tray, 40 cm",
+  "category": "tea",
+  "price": 480,
+  "stock": 9,
+  "origin": "Fès",
+  "description": "A round brass tray engraved with a geometric border. The centre of every tea ceremony.",
+  "views": [
+   [
+    "plate",
+    "BRASS",
+    "INK",
+    "#E9CF8F",
+    "#F3EAD8"
+   ]
+  ],
+  "featured": false
+ },
+ {
+  "slug": "leather-pouf-tan",
+  "name": "Leather pouf, tan",
+  "category": "leather",
+  "price": 890,
+  "stock": 10,
+  "origin": "Marrakech",
+  "description": "Goat leather stitched by hand in the Marrakech medina. Ships unstuffed: fill it with old blankets or cushions.",
+  "views": [
+   [
+    "pouf",
+    "TERRA",
+    "SAFF",
+    "#C97A4F",
+    "#F2E7DD"
+   ],
+   [
+    "pouf",
+    "TERRA",
+    "SAFF",
+    "#C97A4F",
+    "#E9DDD2"
+   ]
+  ],
+  "featured": true
+ },
+ {
+  "slug": "leather-pouf-white",
+  "name": "Embroidered leather pouf, white",
+  "category": "leather",
+  "price": 940,
+  "stock": 4,
+  "origin": "Marrakech",
+  "description": "White leather with saffron embroidery. Ships unstuffed.",
+  "views": [
+   [
+    "pouf",
+    "#F4EEE4",
+    "SAFF",
+    "#FFFFFF",
+    "#E6E1D8"
+   ]
+  ],
+  "featured": false
+ },
+ {
+  "slug": "babouche-yellow",
+  "name": "Babouche slippers, saffron",
+  "category": "leather",
+  "price": 190,
+  "stock": 22,
+  "origin": "Fès",
+  "description": "Soft leather slippers with a folded-down back. Sizes 36 to 45; choose yours in the order note.",
+  "views": [
+   [
+    "babouche",
+    "SAFF",
+    "INK",
+    "#8A5A1A",
+    "#F6EDDA"
+   ]
+  ],
+  "featured": false
+ },
+ {
+  "slug": "babouche-red",
+  "name": "Babouche slippers, red",
+  "category": "leather",
+  "price": 190,
+  "stock": 1,
+  "origin": "Fès",
+  "description": "The same babouche in deep red. Sizes 36 to 45; add your size in the order note.",
+  "views": [
+   [
+    "babouche",
+    "RED",
+    "SAFF",
+    "#5C1A1F",
+    "#F4E3E1"
+   ]
+  ],
+  "featured": false
+ },
+ {
+  "slug": "palm-market-basket",
+  "name": "Palm market basket",
+  "category": "home",
+  "price": 210,
+  "stock": 19,
+  "origin": "Essaouira",
+  "description": "Woven doum palm with leather handles. The basket everyone carries to the market.",
+  "views": [
+   [
+    "basket",
+    "#C9A46A",
+    "#8A6A3A",
+    "#000",
+    "#F3EBDC"
+   ]
+  ],
+  "featured": true
+ },
+ {
+  "slug": "lidded-berber-basket",
+  "name": "Lidded Berber basket",
+  "category": "home",
+  "price": 260,
+  "stock": 7,
+  "origin": "Ourika",
+  "description": "A tall lidded basket with indigo stripes. For laundry, blankets or plants.",
+  "views": [
+   [
+    "basket",
+    "#D8BC8A",
+    "COBALT",
+    "#000",
+    "#ECEAF0"
+   ]
+  ],
+  "featured": false
+ },
+ {
+  "slug": "bone-inlay-mirror",
+  "name": "Arched mirror with bone inlay",
+  "category": "home",
+  "price": 1350,
+  "stock": 3,
+  "origin": "Marrakech",
+  "description": "An arched mirror framed in carved wood with bone inlay. 50 × 80 cm, with a hanging wire.",
+  "views": [
+   [
+    "mirror",
+    "INK",
+    "#E9E1CF",
+    "#B9C8D4",
+    "#EEEAE2"
+   ]
+  ],
+  "featured": false
+ },
+ {
+  "slug": "thuya-box",
+  "name": "Thuya wood box",
+  "category": "home",
+  "price": 170,
+  "stock": 13,
+  "origin": "Essaouira",
+  "description": "Polished thuya wood from Essaouira with a lemonwood star on the lid. For jewellery or tea.",
+  "views": [
+   [
+    "box",
+    "#8A4B2A",
+    "SAFF",
+    "#5E2F18",
+    "#F2E5DA"
+   ]
+  ],
+  "featured": false
+ }
+]

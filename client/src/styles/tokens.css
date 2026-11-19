@@ -1,0 +1,49 @@
+/*
+ * Souk design tokens.
+ * Idea: a Moroccan craft market. Plaster-white walls, Majorelle blue for what you
+ * act on, saffron for prices and highlights, mint-tea green for "in stock / done".
+ * The zellige star is the one ornament, used on the hero band and empty states.
+ */
+:root {
+  --paper: 247 247 244;       /* #F7F7F4 plaster */
+  --surface: 255 255 255;
+  --sunken: 238 236 229;      /* #EEECE5 */
+  --ink: 28 27 41;            /* #1C1B29 */
+  --ink-muted: 98 96 112;
+  --rule: 226 223 214;
+  --rule-strong: 196 192 182;
+  --brand: 63 69 200;         /* #3F45C8 Majorelle */
+  --brand-ink: 255 255 255;
+  --brand-soft: 229 230 248;
+  --saffron: 226 164 44;      /* #E2A42C */
+  --saffron-soft: 250 238 210;
+  --mint: 47 107 79;          /* #2F6B4F */
+  --mint-soft: 222 238 228;
+  --danger: 177 46 54;
+  --danger-soft: 249 229 230;
+  --shadow-panel: 0 1px 2px rgb(28 27 41 / 0.06), 0 18px 44px -18px rgb(28 27 41 / 0.3);
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: 20 19 30;
+    --surface: 28 27 41;
+    --sunken: 36 35 52;
+    --ink: 236 234 228;
+    --ink-muted: 164 161 176;
+    --rule: 48 47 66;
+    --rule-strong: 74 72 96;
+    --brand: 134 140 245;
+    --brand-ink: 20 19 30;
+    --brand-soft: 40 42 82;
+    --saffron: 240 186 82;
+    --saffron-soft: 64 48 18;
+    --mint: 110 196 152;
+    --mint-soft: 22 50 38;
+    --danger: 240 120 126;
+    --danger-soft: 62 26 30;
+    --shadow-panel: 0 1px 0 rgb(var(--rule)), 0 18px 44px -14px rgb(0 0 0 / 0.65);
+    color-scheme: dark;
+  }
+}
