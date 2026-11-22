@@ -1,6 +1,5 @@
 import { useId } from 'react';
 
-/** The eight-pointed star of Moroccan zellige, as a points string. */
 export function starPoints(cx: number, cy: number, r1: number, r2: number, n = 8, rot = 0) {
   return Array.from({ length: n * 2 }, (_, i) => {
     const r = i % 2 === 0 ? r1 : r2;
@@ -9,10 +8,6 @@ export function starPoints(cx: number, cy: number, r1: number, r2: number, n = 8
   }).join(' ');
 }
 
-/**
- * A repeating zellige tile: star, smaller turned star, and the cross shapes
- * between them. Colours come from props so the same tile works on blue and on paper.
- */
 export function ZelligePattern({ a, b, c, size = 72, className = '' }: { a: string; b: string; c: string; size?: number; className?: string }) {
   const id = useId().replace(/:/g, '');
   const s = size;

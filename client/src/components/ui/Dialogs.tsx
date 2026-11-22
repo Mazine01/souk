@@ -8,13 +8,11 @@ interface DrawerProps {
   onOpenChange: (open: boolean) => void;
   title: string;
   description?: string;
-  /** Rendered above the scrolling body, edge to edge (used for the ID card band). */
   header?: ReactNode;
   footer?: ReactNode;
   children: ReactNode;
 }
 
-/** Side panel on desktop, full-height sheet on phones. */
 export function Drawer({ open, onOpenChange, title, description, header, footer, children }: DrawerProps) {
   return (
     <Dialog.Root open={open} onOpenChange={onOpenChange}>

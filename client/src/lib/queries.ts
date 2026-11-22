@@ -15,8 +15,6 @@ import type {
 } from '@souk/shared';
 import { api, ApiError } from './api';
 
-// ---------- Auth ----------
-
 export function useMe() {
   return useQuery({
     queryKey: ['me'],
@@ -62,8 +60,6 @@ export function useLogout() {
   });
 }
 
-// ---------- Catalog ----------
-
 export function useCategories() {
   return useQuery({
     queryKey: ['categories'],
@@ -86,8 +82,6 @@ export function useProduct(slug: string) {
     queryFn: () => api<{ data: Product; related: ProductCard[] }>(`/api/products/${encodeURIComponent(slug)}`),
   });
 }
-
-// ---------- Orders ----------
 
 export function useOrders(enabled = true) {
   return useQuery({ queryKey: ['orders'], queryFn: async () => (await api<{ data: Order[] }>('/api/orders')).data, enabled });
@@ -119,8 +113,6 @@ export function useCancelOrder() {
     },
   });
 }
-
-// ---------- Admin ----------
 
 export function useAdminStats() {
   return useQuery({ queryKey: ['admin', 'stats'], queryFn: async () => (await api<{ data: AdminStats }>('/api/admin/stats')).data });

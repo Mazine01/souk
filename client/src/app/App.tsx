@@ -9,6 +9,14 @@ import { CheckoutPage } from '../features/orders/CheckoutPage';
 import { OrderPage, OrdersPage } from '../features/orders/OrdersPages';
 import { AdminHome, AdminLayout, AdminOrders, AdminProducts } from '../features/admin/AdminPages';
 import { AppShell } from './AppShell';
+import { LegalPage } from '../features/legal/LegalPage';
+import type { DocKey } from '../features/legal/documents';
+
+const Legal = ({ doc }: { doc: DocKey }) => (
+  <div className="px-4 pt-10 sm:px-6">
+    <LegalPage doc={doc} />
+  </div>
+);
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -32,6 +40,10 @@ export function App() {
           <Route path="/orders/:id" element={<OrderPage />} />
           <Route path="/login" element={<AuthPage mode="login" />} />
           <Route path="/register" element={<AuthPage mode="register" />} />
+          <Route path="/privacy" element={<Legal doc="privacy" />} />
+          <Route path="/terms" element={<Legal doc="terms" />} />
+          <Route path="/cookies" element={<Legal doc="cookies" />} />
+          <Route path="/delivery-returns" element={<Legal doc="delivery" />} />
           <Route path="/admin" element={<AdminLayout />}>
             <Route index element={<AdminHome />} />
             <Route path="products" element={<AdminProducts />} />

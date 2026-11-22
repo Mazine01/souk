@@ -2,7 +2,6 @@ import { ORDER_STATUS_LABELS, type OrderStatus } from '@souk/shared';
 
 const mad = new Intl.NumberFormat('en-US', { minimumFractionDigits: 0, maximumFractionDigits: 0 });
 
-/** 26000 → "260 MAD". Whole dirhams show no decimals; anything else shows two. */
 export const price = (cents: number) => {
   const v = cents / 100;
   return `${Number.isInteger(v) ? mad.format(v) : v.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })} MAD`;

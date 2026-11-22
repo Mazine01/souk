@@ -4,6 +4,7 @@ import { LayoutDashboard, Package, Search, ShoppingBag, User } from 'lucide-reac
 import { useCart } from '../lib/cart';
 import { useCategories, useLogout, useMe } from '../lib/queries';
 import { CartDrawer } from '../components/CartDrawer';
+import { SiteFooter } from '../components/SiteFooter';
 import { Logo, ZelligePattern } from '../components/Zellige';
 
 export function AppShell({ children }: { children: ReactNode }) {
@@ -79,24 +80,10 @@ export function AppShell({ children }: { children: ReactNode }) {
 
       <main id="main" className="flex-1">{children}</main>
 
-      <footer className="relative mt-20 overflow-hidden bg-brand text-white dark:bg-surface">
-        <div className="absolute inset-x-0 top-0 h-6 opacity-60">
-          <ZelligePattern a="rgb(255 255 255 / .25)" b="#E2A42C" c="rgb(255 255 255 / .15)" size={24} />
-        </div>
-        <div className="mx-auto grid max-w-[1240px] gap-8 px-4 pb-10 pt-14 sm:grid-cols-3 sm:px-6">
-          <div>
-            <Logo onDark />
-            <p className="mt-3 max-w-xs text-sm text-white/80 dark:text-ink-muted">Handmade pieces from workshops in Fès, Safi, Marrakech and the Atlas, delivered to your door.</p>
-          </div>
-          <div className="text-sm text-white/85 dark:text-ink-muted">
-            <p className="font-semibold text-white dark:text-ink">How buying works</p>
-            <p className="mt-2">Order online, pay the courier in cash when your parcel arrives. Delivery takes 2 to 5 days.</p>
-          </div>
-          <div className="text-sm text-white/70 dark:text-ink-muted">
-            <p>A portfolio project by M'hammed Mazin for the Auspify Full Stack internship. Product illustrations are original drawings; no real orders are shipped.</p>
-          </div>
-        </div>
-      </footer>
+      <div className="mt-20 h-3 overflow-hidden bg-brand" aria-hidden="true">
+        <ZelligePattern a="rgb(255 255 255 / .28)" b="#E2A42C" c="rgb(255 255 255 / .18)" size={12} />
+      </div>
+      <SiteFooter className="bg-surface" />
       <CartDrawer />
     </div>
   );

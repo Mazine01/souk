@@ -19,7 +19,6 @@ export function HomePage() {
 
   return (
     <>
-      {/* The tiled wall: the one bold thing on the page. */}
       <section className="relative overflow-hidden bg-brand text-white">
         <div className="absolute inset-0 opacity-90">
           <ZelligePattern a="rgb(255 255 255 / .07)" b="rgb(255 255 255 / .16)" c="rgb(226 164 44 / .45)" size={96} />

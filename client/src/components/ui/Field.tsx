@@ -91,7 +91,6 @@ export const SelectField = forwardRef<HTMLSelectElement, SelectFieldProps>(funct
   );
 });
 
-/** Compact select for toolbars: the label is visually hidden but still read by screen readers. */
 export function FilterSelect({
   label,
   className = '',

@@ -2,7 +2,6 @@ import type { ApiErrorBody } from '@souk/shared';
 
 const BASE = (import.meta.env.VITE_API_URL ?? '').replace(/\/$/, '');
 
-/** Error thrown for any non-2xx response, carrying the API's code and field errors. */
 export class ApiError extends Error {
   constructor(
     public status: number,

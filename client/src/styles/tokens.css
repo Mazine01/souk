@@ -1,9 +1,4 @@
-/*
- * Souk design tokens.
- * Idea: a Moroccan craft market. Plaster-white walls, Majorelle blue for what you
- * act on, saffron for prices and highlights, mint-tea green for "in stock / done".
- * The zellige star is the one ornament, used on the hero band and empty states.
- */
+/* Souk design tokens. Light theme by default; dark values below. */
 :root {
   --paper: 247 247 244;       /* #F7F7F4 plaster */
   --surface: 255 255 255;
